@@ -1,0 +1,27 @@
+
+
+The scenario simulates the moment of an accident that lasts for seconds. On a 3-lane road, the truck that we try to overtake by moving at a speed of 108 km/h (30 sec/m) from the middle lane does not see our vehicle and crosses into the middle lane. 
+
+The purpose of the simulation is to follow the vehicles in traffic with different sensors and predict their next situation through the Kalman Filter. If the anticipated situations create a dangerous situation, the vehicle brakes independently of the driver. 
+
+In this way, the vital importance of the ADAS System is observed.
+
+Automated Driving Toolbox, Sensor Fusion and Tracking Toolbox and Navigation Toolbox were used for the simulation.
+
+The scenario was created using Driving Scenario Designer.
+
+
+
+
+Run the Main.m file to start the simulation. 
+Do not pay attention to the warnings that appear in the Command Window as the vehicles are intertwined in the accident simulation (Scenario function).
+
+The Scenario() function was written to simulate the moment of the accident, and the ADAS() function was written to simulate the automatic braking system.
+
+
+Sensors measure 10 times in 1 second. Kalman Filter was used to estimate the current position of vehicles at 1 second and prevent the accident.
+
+You can watch GIFs for simulation results.
+
+For more questions, you can send an e-mail to bogachandusgul@gmail.com
+
